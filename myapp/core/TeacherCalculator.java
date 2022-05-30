@@ -48,7 +48,7 @@ public class TeacherCalculator {
                 break;
         }
 
-        System.out.printf("The answer for ", args)
+        System.out.printf("The answer for %d + %d + %d", args)
 
 
         
