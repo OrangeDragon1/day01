@@ -2,8 +2,6 @@ package myapp.core;
 
 import java.io.Console;
 
-import javax.naming.OperationNotSupportedException;
-
 public class TeacherCalculator {
 
     public static void main(String[] args) {
@@ -48,7 +46,9 @@ public class TeacherCalculator {
                 break;
         }
 
-        System.out.printf("The answer for %d + %d + %d", args)
+        System.out.printf("Result: %d %s %d = %.3f\n", val0, operator, val1, result);
+        
+        
 
 
         
